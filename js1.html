@@ -1,0 +1,47 @@
+<html>
+
+<body>
+    <script>
+        function start() {
+            alert('Привет. Добро пожаловать в "Игромат" версии 0.1');
+        }
+        start();
+        function change() {
+            let game;
+            game = prompt('Выбери игру: 1. Угадалка 2. Считалка 3. Кликалка');
+        }
+        function guess() {
+            alert('Игра "Угадайка"');
+            alert('Угадай число от 1 до 100');
+            let num;
+            num = Math.random;
+            console.log(num);
+            // функция guess недописана, но даже на блядском алерте не работает, а должна
+        }
+        change()
+        function game_2() {
+            switch (game) {
+                case '1':
+                    guess()
+                    // а вот здесь эта хуита и не работает вообще
+                    break;
+                case 'Угадайка':
+                    guess()
+                    // как и здесь
+                    break;
+                default:
+                    alert('Иди нахуй');
+            }
+        }
+        game_2()
+        //         function guess() {
+        //             alert('Игра "Угадайка"');
+        // alert('Угадай число от 1 до 100');
+        // let num;
+        // num = Math.random;
+        // console.log(num);
+        //         }
+    </script>
+</body>
+
+</html
